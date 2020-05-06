@@ -1,0 +1,29 @@
+#pad {
+  display: grid;
+  grid-template-rows: 0px 1fr;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+#drum-pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  width: 33.33%;
+  height: 150px;
+  font-size: 50px;
+  background-color: rgb(102, 116, 131);
+  color: white;
+}
+
+button:hover {
+  background-color: darkgray;
+}
