@@ -1,6 +1,5 @@
 import React from 'react';
 import './keys.css';
-import ReactFCCTest from 'react-fcctest';
 
 class Keys extends React.Component {
   constructor() {
@@ -88,7 +87,6 @@ class Keys extends React.Component {
   render() {
     return (
       <div id='pad'>
-        <ReactFCCTest />
         <div id='display'>{this.state.display}</div>
         <div id='drum-machine' className='drum-pad'>
           <button id='Closed-HH' className='drum-pad' onClick={this.playSound}>

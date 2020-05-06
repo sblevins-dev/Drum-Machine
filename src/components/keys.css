@@ -1,6 +1,4 @@
 #pad {
-  display: grid;
-  grid-template-rows: 0px 1fr;
   font-size: 50px;
   text-align: center;
   width: 100%;
@@ -9,11 +7,8 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-}
-
-#drum-pad {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 1fr;
 }
 
 button {
@@ -26,4 +21,10 @@ button {
 
 button:hover {
   background-color: darkgray;
+}
+
+@media (min-width: 700px) {
+  #pad {
+    width: 40%;
+  }
 }
